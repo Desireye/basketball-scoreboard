@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    margin: 0;
+    background: black;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #325D79;
+    border: 0.3rem solid #EFEEEE;
+    border-radius: 1rem;
+    padding: 5%;
+    width: 35rem;
+    height: 26rem;
+}
+.main-section {
+    display: flex;
+    justify-content: space-around;
+   margin-top: -3rem;
+}
+h3 {
+    color: #EFEEEE;
+    font-size: 2.5rem;
+    margin-bottom: -0.1rem;
+}
+#h-screen, #g-screen {
+    background: black;
+    height: 7.5rem;
+    width: 9.688rem;
+    color: #F26627;
+    font-size: 5.625rem;
+    border-radius: 0.313rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding-top: 20%;
+}
+p {
+    color: #599E4C;
+    font-size: 1rem; 
+    background: black;
+    height: 2rem;
+    border-radius: 0.313rem;
+    padding-top: 9%;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+.btn-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn-div button  {
+    height: 2.813rem;
+    width: 2.813rem;
+    background: #9BD7D1;
+    border: 0.1rem solid #F9A26C;
+    margin-top: 15%;
+    border-radius: 0.3rem;
+    color: #F9A26C;
+    font-size: 1.125rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding-top: 3%;
+}
+.other-btns {
+    display: flex;
+    justify-content: space-around;
+}
+.o-btns {
+    width: 7rem;
+    height: 3rem;
+    font-size: 1rem;
+    background: #F9A26C;
+    border: 0.2rem solid #9BD7D1;
+    border-radius: 0.3rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding-top: 1%;
+    color: #EFEEEE;
+    margin-top: 5%;
+}
