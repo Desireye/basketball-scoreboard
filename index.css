@@ -4,6 +4,11 @@ body {
     margin: 0;
     background: black;
     text-align: center;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     display: flex;
@@ -11,9 +16,9 @@ body {
     background: #325D79;
     border: 0.3rem solid #EFEEEE;
     border-radius: 1rem;
-    padding: 5%;
-    width: 35rem;
-    height: 26rem;
+    padding: 3%;
+    width: 30rem;
+    height: 25rem;
 }
 .main-section {
     display: flex;
@@ -24,6 +29,7 @@ h3 {
     color: #EFEEEE;
     font-size: 2.5rem;
     margin-bottom: -0.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #h-screen, #g-screen {
     background: black;
